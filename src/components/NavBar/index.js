@@ -20,7 +20,7 @@ export default function NavBar(){
 
    return (
     <div className={`h-[86px] w-full py-[12px] z-40 px-[24px] flex items-center justify-between ${scrollPosition > 50 && 'fixed top-0 bg-white'}`}>
-        <div className="text-[27px] font-bold text-black ">
+        <div className="text-[27px] font-bold text-black pl-4 ">
             fresha
         </div>
         {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
