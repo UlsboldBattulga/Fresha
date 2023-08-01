@@ -69,7 +69,7 @@ export default function MySwipers({title}){
     };
 
     return(
-        <div className="mb-16 flex flex-col items-center max-w-[1440px] w-full relative">
+        <div className="mb-16 flex flex-col items-center max-w-[1440px] w-full relative p-4">
             <h2 className="font-semibold text-[28px] mb-4 w-full">{title}</h2>
             <div ref={swiperRef} className="flex flex-row items-center gap-x-6 scrollBar overflow-x-auto w-full">
                 {datas.map((data, index) => {

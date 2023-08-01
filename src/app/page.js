@@ -23,7 +23,7 @@ export default function Page() {
       <NavBar />
       <Cover />
       </div>
-      <div className='flex flex-col items-center w-full mt-12'>
+      <div className='flex flex-col items-center w-full mt-12 '>
         <MySwipers title={'Recommeneded'} />
         <Swipers title={'New to Fresha'} />
       </div>
