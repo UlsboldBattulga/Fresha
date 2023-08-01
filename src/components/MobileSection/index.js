@@ -1,6 +1,6 @@
 export default function MobileSection(){
     return(
-        <div className="w-full flex py-[80px] justify-center gap-2">
+        <div className="w-full flex py-[80px] justify-center gap-2 p-4">
             <div className=" pr-[100px] max-w-[700px]">
                 <div className="flex text-sm">
                     <div className="flex gap-[12px] text-sm">

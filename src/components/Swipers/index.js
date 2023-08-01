@@ -15,7 +15,7 @@ const mydatas = [
     },
     {
         title: '19Thai Massage',
-        image: 'https://images.fresha.com/locations/location-profile-images/608500/917327/7eab34b3-1913-4b5f-a9d4-93adbbe63ab3.jpg?class=width-small',
+        image: 'https://images.fresha.com/locations/location-profile-images/205104/199292/36e66cea-b546-4bf6-87a2-0fc62f12b62d.jpg?class=width-small',
         stars: '3.0',
         reviews: 5555,
         address: 'Эрдэнэт, Mongolia',
@@ -69,7 +69,7 @@ export default function Swipers({title}){
     };
 
     return(
-        <div className="mb-16 flex flex-col items-center max-w-[1440px] w-full relative">
+        <div className="mb-16 flex flex-col items-center max-w-[1440px] w-full relative p-4">
             <h2 className="font-semibold text-[28px] mb-4 w-full">{title}</h2>
             <div ref={swiperRef} className="flex flex-row items-center gap-x-6 scrollBar overflow-x-auto w-full">
                 {mydatas.map((data, index) => {

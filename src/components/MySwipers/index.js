@@ -25,7 +25,7 @@ const datas = [
     },
     {
         title: 'The best booking system',
-        image: 'https://images.fresha.com/locations/location-profile-images/128643/874078/2131d661-8b20-4957-b53d-2abb58433b4b.jpg?class=width-small',
+        image: 'https://images.fresha.com/locations/location-profile-images/205104/199292/36e66cea-b546-4bf6-87a2-0fc62f12b62d.jpg?class=width-small',
         stars: '4.0',
         reviews: 1231,
         address: 'Багануур, Mongolia',
